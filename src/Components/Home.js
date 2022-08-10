@@ -1,8 +1,11 @@
 import React from 'react';
 import video from '../pictures/main_video.mp4';
-function Home() {
+function Home({setpro}) {
+    
+    
   return (
    <>
+   
    <div className="container-fluid mt-5">
         <table>
             <th>
